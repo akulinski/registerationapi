@@ -1,4 +1,4 @@
-#How To Start 
+# How To Start 
 
 1. In root of the project run ``mvn clean install``
 2. Then run ```mvn spring-boot:run```
