@@ -48,6 +48,7 @@ export default function SignUp() {
                     setErrors('');
                     setUserAdded(true);
                 }).catch(err => {
+                setUserAdded(false);
                 setErrors(err.response.data.rule)
             });
         }
