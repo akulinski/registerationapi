@@ -2,5 +2,5 @@
 
 1. In root of the project run ``mvn clean install``
 2. Then run ```mvn spring-boot:run```
-3. UI is available on localhost:8080
+3. UI is available on http://ocalhost:8080/
 4. swagger is available on http://localhost:8080/swagger-ui.html
