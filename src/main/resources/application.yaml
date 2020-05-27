@@ -1,0 +1,16 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: "/console"
+  datasource:
+    url: "${DB_URL:jdbc:h2:mem:registrationapi}"
+
+    driver-class-name: org.h2.Driver
+    username: "${H2_USERNAME:sa}"
+    password: "${H2_PASSWORD:password}"
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    open-in-view: false
+
