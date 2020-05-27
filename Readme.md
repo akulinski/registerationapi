@@ -1,3 +1,5 @@
+![Java CI with Maven](https://github.com/akulinski/registerationapi/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 # How To Start 
 
 1. In root of the project run ``mvn clean install``
